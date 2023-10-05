@@ -1,0 +1,79 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Global styles */
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: lightpink; /* Set the initial background color */
+  color: #000; /* Set the initial text color */
+}
+
+h1 {
+  background-color: lightpink;
+  padding: 4px;
+}
+
+h2 {
+  color: white;
+  background-color: lightblue;
+  padding: 3px;
+}
+
+.menu {
+  text-align: center;
+  background-color: lightblue;
+  font-size: 18px;
+  padding-top: 16pt;
+}
+
+.button {
+  background-color: white;
+  padding: 5px;
+  border-color: black;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: blue;
+}
+
+/* Dark Mode Styles */
+.darkmode {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Light text color */
+}
+
+.darkmode .menu {
+  background-color: #444; /* Dark menu background color */
+}
+
+.darkmode .button {
+  background-color: #555; /* Dark button background color */
+  color: #fff; /* Light text color for buttons in dark mode */
+}
+
+.darkmode .button:hover {
+  background-color: #666; /* Dark button hover background color */
+}
+
+/* Dark mode icon styles */
+#dark-mode {
+  color: #fff; /* Light color for the moon/sun icon */
+  text-decoration: none;
+}
+
+/* Light mode icon styles */
+#dark-mode.fa-sun {
+  color: #f3ca20; /* Yellow color for the sun icon */
+}
+
+/* Additional styles for specific elements in dark mode can be added here */
