@@ -1,0 +1,120 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightpink; 
+    color: #000; 
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+
+  .darkmode {
+    background-color: #333; 
+    color: #fff; 
+  }
+  
+  .menu {
+    text-align: center;
+    background-color: lightblue;
+    font-size: 18px;
+    padding: 16px 0;
+    transition: background-color 0.3s;
+  }
+  
+  .menu:hover {
+    background-color: #444; 
+  }
+  
+  .button {
+    background-color: white;
+    padding: 5px;
+    border-color: black;
+    text-decoration: none;
+    transition: background-color 0.3s; 
+  }
+  
+  .button:hover {
+    background-color: #007bff; 
+  }
+  
+  h1 {
+    background-color: lightpink;
+    padding: 4px;
+    transition: background-color 0.3s; 
+  }
+  
+  h1:hover {
+    background-color: #333; 
+  }
+  
+  footer {
+    background-color: lightblue; 
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.3s; 
+  }
+  
+  .darkmode footer {
+    background-color: #444; 
+  }
+  
+  .footer-text {
+    font-size: 14px;
+    color: white;
+    font-style: italic;
+    transition: color 0.3s; 
+  }
+  
+  #dark-mode {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s; 
+  }
+  
+  #dark-mode.fa-sun {
+    color: #f3ca20;
+  }
+  
+  .about-me {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transition: background-color 0.3s, color 0.3s; 
+  }
+  
+  .personal-info {
+    padding: 10px;
+    border-radius: 8px;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .additional-info {
+    padding: 10px;
+    border-radius: 8px;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .about-me:hover {
+    background-color: #007bff; 
+  }
+  
+  .darkmode .about-me {
+    background-color: #444; 
+    color: #fff;
+  }
+  
+  .darkmode .personal-info {
+    background-color: #555; 
+  }
+  
+  .darkmode .additional-info {
+    background-color: #444; 
+  }
+  
